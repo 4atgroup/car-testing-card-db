@@ -46,7 +46,7 @@ To keep any changes, you must save them as a new config file in the default loca
     <element>
       <key type="string">Commit</key>
       <value version="1" type="GenericHookCommand">
-        <CommandLine>git commit -F "($MessageFile)" -o "($ScriptsFolder)\" &amp;&amp; git fetch --all</CommandLine>
+        <CommandLine>git commit -F "($MessageFile)" -o "($ScriptsFolder)\" &amp;&amp; git push</CommandLine>
         <Verify>exitCode == 0</Verify>
       </value>
     </element>

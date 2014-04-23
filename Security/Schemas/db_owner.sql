@@ -1,2 +1,0 @@
-ALTER AUTHORIZATION ON SCHEMA :: [db_owner] TO [LOFT6002\DDekanozishvili]
-GO
